@@ -4,20 +4,20 @@ const products = [
     id: 1,
     name: "Clássico com Gotas de Chocolate <br>(Esgotado)",
     description: "Nosso cookie exclusivo com generosos pedaços de chocolate premium e um centro macio que derrete na boca.",
-    image: "midia/cookie1.jpg"
+    image: "midia/Cookie1.jpg"
   },
   {
     id: 2,
     name: "Sanduíche de Cookie <br>(Mais vendido)",
     description: "Cookie de chocolate intenso, macio e com gotas de chocolate para a experiência de chocolate suprema.",
-    image: "midia/cookie_2.png",
+    image: "midia/Cookie2.png",
     bestseller: true
   },
   {
     id: 3,
     name: "Nozes e Açúcar Mascavo <br>(Esgotado)",
     description: "Cookie amanteigado de açúcar mascavo com nozes crocantes e um toque sutil de canela.",
-    image: "midia/cookie3.jpeg"
+    image: "midia/Cookie3.jpg"
   }
 ];
 
