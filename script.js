@@ -18,7 +18,7 @@ const products = [
     id: 3,
     name: "Nozes e Açúcar Mascavo <br>(Esgotado)",
     description: "Cookie amanteigado de açúcar mascavo com nozes crocantes e um toque sutil de canela.",
-    image: "midia/cookie3.jpg",
+    image: "midia/Cookie3.jpg",
     bestseller: true
   }
 ];
