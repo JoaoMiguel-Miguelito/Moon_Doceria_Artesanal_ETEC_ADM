@@ -41,7 +41,7 @@ const testimonials = [
     name: "Hugo Vitor",
     location: "Itararé - São Paulo",
     text: "Foi um dos melhores Cookies que ja comi na vida. 🌚",
-    image: "midia/vitu.jpg"
+    image: "midia/Vitu.jpg"
   }
 ];
 
