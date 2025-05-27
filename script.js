@@ -4,7 +4,8 @@ const products = [
     id: 1,
     name: "Clássico com Gotas de Chocolate <br>(Esgotado)",
     description: "Nosso cookie exclusivo com generosos pedaços de chocolate premium e um centro macio que derrete na boca.",
-    image: "midia/Cookie1.jpg"
+    image: "midia/Cookie1.jpg",
+    bestseller: true
   },
   {
     id: 2,
@@ -17,7 +18,8 @@ const products = [
     id: 3,
     name: "Nozes e Açúcar Mascavo <br>(Esgotado)",
     description: "Cookie amanteigado de açúcar mascavo com nozes crocantes e um toque sutil de canela.",
-    image: "midia/Cookie3.jpg"
+    image: "midia/Cookie3.jpg",
+    bestseller: true
   }
 ];
 
