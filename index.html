@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moon - Doceria Artesanal</title>
+  <link rel="icon" type="image/x-icon" href="midia/favicon.ico">
+  <meta name="description" content="Biscoitos deliciosos e artesanais, assados ​​diariamente com ingredientes premium e receitas consagradas pelo tempo.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="/" class="logo">Moon - Doceria Artesanal</a>
+      <nav class="nav">
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-list">
+          <li><a href="#products">Produtos</a></li>
+          <li><a href="#about">Sobre nós</a></li>
+          <li><a href="#testimonials">Depoimentos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content container">
+        <h1>Sanduiches de Cookie<br>Feitos com muito Amor</h1>
+        <p>Biscoitos deliciosos e artesanais, assados ​​diariamente com ingredientes premium e receitas consagradas pelo tempo.</p>
+        <div class="hero-buttons">
+          <a href="#products" class="btn btn-primary">Explore nossos sabores</a>
+          <a href="#about" class="btn btn-outline">Nossa Historia</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="section">
+      <div class="container">
+        <h2>Nossos Principais Produtos</h2>
+        <p class="section-subtitle">Cada mordida, melhor que a anterior.</p>
+        <div class="products-grid" id="products-container"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section bg-cream">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-content">
+            <h2>Sobre nossa empresa</h2>
+            <p>A Moon Doceria Artesanal foi recém-inaugurada e já conquistou os fãs de doces com seus cookies artesanais, crocantes por fora e macios por dentro. </p>
+            <p>A grande novidade da casa é o cookie recheado com brigadeiro, que une o sabor clássico brasileiro com a textura perfeita dos cookies. Sucesso garantido!</p>
+            <br>
+            <p>Este produto foi desenvolvido como parte de um trabalho acadêmico da disciplina de Desenvolvimento de Modelo de Negócios.</p>
+            <p>projeto tem como objetivo aplicar os conceitos aprendidos em sala de aula, como proposta de valor, segmentação de clientes, canais de distribuição, e modelo de receita, na criação de uma solução inovadora e viável para o mercado.</p>
+            <br>
+            <a href="#contact" class="btn btn-primary">Entre em contato</a>
+          </div>
+          <div class="about-image">
+            <img src="midia/nos.jpg" alt="Baker making cookies">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section">
+      <div class="container">
+        <h2>Depoimentos de Clientes</h2>
+        <div class="testimonials-slider">
+          <div class="testimonials-container" id="testimonials-container"></div>
+          <button class="slider-btn prev" aria-label="Previous testimonial">&lt;</button>
+          <button class="slider-btn next" aria-label="Next testimonial">&gt;</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section bg-brown">
+      <div class="container">
+        <h2>Faça seu Pedido pelo Whatsapp</h2>
+        <form id="whatsapp-form" class="contact-form">
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h3>Moon - Doceria Artesanal</h3>
+          <p>R. Campos Salles, 1320 - Centro<br>Tel: (15) 99156-0824<br>Itararé - SP<br>18460-001</p>
+        </div>
+        <div class="footer-links">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="#products">Produtos</a></li>
+            <li><a href="#about">Sobre nós</a></li>
+            <li><a href="#testimonials">Depoimentos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Moon - Doceria Artesanal. Todos direitos Reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
