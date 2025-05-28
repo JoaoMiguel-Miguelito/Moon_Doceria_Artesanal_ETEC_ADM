@@ -16,8 +16,8 @@ const products = [
   },
   {
     id: 3,
-    name: "Macarons <br>(Esgotado)",
-    description: "Cookie amanteigado de açúcar mascavo com nozes crocantes e um toque sutil de canela.",
+    name: "Macaroons <br>(Esgotado)",
+    description: "Por dentro, uma textura macia e levemente úmida contrasta divinamente com o recheio cremoso e saboroso.",
     image: "midia/Macarron.jpg",
     bestseller: true
   }
