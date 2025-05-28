@@ -16,7 +16,7 @@ const products = [
   },
   {
     id: 3,
-    name: "Nozes e Açúcar Mascavo <br>(Esgotado)",
+    name: "Macarons <br>(Esgotado)",
     description: "Cookie amanteigado de açúcar mascavo com nozes crocantes e um toque sutil de canela.",
     image: "midia/Macarron.jpg",
     bestseller: true
