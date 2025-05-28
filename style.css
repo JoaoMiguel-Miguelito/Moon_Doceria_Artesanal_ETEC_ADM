@@ -376,3 +376,47 @@ body {
   object-position: center; /* Centraliza a imagem dentro do corte. Pode ser 'top', 'bottom', '50% 25%', etc. */
   display: block; /* Remove espaço extra abaixo da imagem se houver */
 }
+
+
+/* Estilo base */
+.testimonials-slider {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.testimonials-container {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+/* Botões do slider */
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ffffff;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.slider-btn.prev {
+  left: 10px;
+}
+
+.slider-btn.next {
+  right: 10px;
+}
+
+/* Responsivo para celular */
+@media (max-width: 768px) {
+  .testimonials-container {
+    flex-direction: column;
+  }
+
+  .slider-btn {
+    font-size: 20px;
+  }
+}

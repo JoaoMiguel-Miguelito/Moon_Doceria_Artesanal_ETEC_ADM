@@ -47,6 +47,7 @@ const testimonials = [
   }
 ];
 
+
 // Header Scroll Effect
 window.addEventListener('scroll', () => {
   const header = document.querySelector('.header');
@@ -140,3 +141,34 @@ whatsappForm.addEventListener('submit', (e) => {
   // Open WhatsApp with the pre-filled message
   window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank');
 });
+
+
+
+  const container = document.getElementById('testimonials-container');
+  const prevBtn = document.querySelector('.slider-btn.prev');
+  const nextBtn = document.querySelector('.slider-btn.next');
+
+  let currentIndex = 0;
+
+  const testimonials = [
+    '<div class="testimonial">Depoimento 1</div>',
+    '<div class="testimonial">Depoimento 2</div>',
+    '<div class="testimonial">Depoimento 3</div>',
+  ];
+
+  function renderTestimonials() {
+    container.innerHTML = testimonials[currentIndex];
+  }
+
+  prevBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
+    renderTestimonials();
+  });
+
+  nextBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % testimonials.length;
+    renderTestimonials();
+  });
+
+  // Inicializa
+  renderTestimonials();
