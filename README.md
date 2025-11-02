@@ -1,7 +1,7 @@
 # Moon Doceria Artesanal
 
 <p align="center">
-  <img src="https://github.com/JoaoMiguel-Miguelito/Moon_Doceria_Artesanal_ETEC_ADM/blob/main/Imagens/Logo.png?raw=true" alt="Moon Doceria Artesanal Logo" width="300"/>
+  <img src="https://github.com/JoaoMiguel-Miguelito/Moon_Doceria_Artesanal_ETEC_ADM/midia/favicon.ico" alt="Moon Doceria Artesanal Logo" width="300"/>
 </p>
 
 Bem-vindo ao repositório oficial da Moon Doceria Artesanal! Este espaço digital serve como uma vitrine e uma ferramenta de gerenciamento para o nosso negócio de doces artesanais. Aqui, você encontrará informações sobre nossos produtos, operações comerciais e, potencialmente, futuros desenvolvimentos relacionados à nossa presença online ou gerenciamento de pedidos.
